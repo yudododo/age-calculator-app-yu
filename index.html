@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Age calculator app</title>
+  </head>
+  <body>
+    <div class="main">
+      <form action="">
+        <div class="input">
+          <div class="item">
+            <label for="day">DAY</label>
+            <input type="text" id="day" placeholder="DD" />
+            <p class="day_err"></p>
+          </div>
+          <div class="item">
+            <label for="month">MONTH</label>
+            <input type="text" id="month" placeholder="MM" />
+            <p class="month_err"></p>
+          </div>
+          <div class="item">
+            <label for="year">YEAR</label>
+            <input type="text" id="year" placeholder="YYYY" />
+            <p class="year_err"></p>
+          </div>
+        </div>
+        <!-- <input type="submit"> -->
+        <div class="horizontal-line"></div>
+        <div class="submit">
+          <input
+            type="image"
+            src="images/icon-arrow.svg"
+            alt="submit"
+            class="submit_bg"
+          />
+        </div>
+      </form>
+      <h1 class="year"><span>--</span>years</h1>
+
+      <h1 class="month"><span>--</span>months</h1>
+
+      <h1 class="day"><span>--</span>days</h1>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >
+      . Coded by <a href="https://www.instagram.com/yu_dododo/">yudododo</a>.
+    </div>
+    <script src="all.js" async defer></script>
+  </body>
+</html>
